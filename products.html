@@ -36,13 +36,19 @@
       </div>
     </div>
   </nav>
-  <main class="pb-5 container">
+  <main role="main" class="pb-5">
+    <div class="text-center p-4">
+      <h2 class="site-header">Productos</h2>
+      <p class="lead">Verás aquí todos los productos de la categoría <span>Autos</span></p>
+    </div>
     <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
+      <div class="row">
+        <div class="list-group cursor-active" id="products-list-container">
+        </div>
       </div>
     </div>
   </main>
+
   <footer class="text-muted">
     <div class="container">
       <p class="float-end">
@@ -53,6 +59,7 @@
       <p>Clickea <a target="_blank" href="Letra.pdf">aquí</a> para descargar la letra del obligatorio.</p>
     </div>
   </footer>
+
   <div id="spinner-wrapper">
     <div class="lds-ring">
       <div></div>
